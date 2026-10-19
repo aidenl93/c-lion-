@@ -1,6 +1,15 @@
 //
-// Created by Aiden Liu on 10/19/26.
-//
+// Created by Aiden Liu on 10/1
 
-#include "tuff.h"
+#include <cstdio>
 
+int main(void){
+
+   float EAN;
+
+    printf("enter EAN");
+    scanf("%f", &EAN);
+    printf("%f", EAN);
+
+    return 0;
+}
