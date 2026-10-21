@@ -1,6 +1,10 @@
-//
-// Created by Aiden Liu on 10/19/26.
-//
+#include <stdio.h>
 
-#include "tuff.h"
+int main(void) {
+    int grade;
+    printf("enter grade");
+    scanf("%d",&grade);
+    printf("ur letter grade is ");
 
+
+}
