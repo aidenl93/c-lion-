@@ -4,3 +4,7 @@
 
 #include "tuff.h"
 
+int main(void) {
+    int num1, num2;
+    
+}
