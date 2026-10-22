@@ -1,6 +1,6 @@
-//
-// Created by Aiden Liu on 10/19/26.
-//
+#include <stdio.h>
 
-#include "tuff.h"
-
+int main(void) {
+    printf("enter a fraction");
+    
+}
