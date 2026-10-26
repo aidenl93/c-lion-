@@ -10,13 +10,18 @@ int main(void) {
 
     num = numerator;
     denom = denominator;
-    while (n != 0)
+    while (denom != 0)
     {
         remainder = num % denom;
         num = denom;
         denom = remainder;
     }
     gcd = num;
+
+    numerator = numerator / gcd;
+    denom = denominator / gcd;
+
+    printf("%d/%d",numerator,denom);
 
 
 }
