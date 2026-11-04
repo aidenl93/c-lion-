@@ -1,6 +1,11 @@
-//
-// Created by Aiden Liu on 10/19/26.
-//
+#include <stdio.h>
+#define MAX_SIZE 20
+double stack[MAX_SIZE];
+int topofequation = -1;
+int function()
 
-#include "tuff.h"
 
+{
+    printf("enter");
+
+}
