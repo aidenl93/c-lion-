@@ -4,6 +4,8 @@
 #define MAX_SIZE 100
 double stack[MAX_SIZE];
 int topeq = -1;
+int op1, op2;
+char optor;
 void push(double value)
 {
     if (topeq >= MAX_SIZE - 1)
@@ -27,5 +29,11 @@ double pop()
 int function()
 {
     printf("enter");
+<<<<<<< Updated upstream
     
+=======
+    scanf("%c", "%ch");
+
+>>>>>>> Stashed changes
     }
+    
