@@ -29,11 +29,4 @@ double pop()
 int function()
 {
     printf("enter");
-<<<<<<< Updated upstream
-    
-=======
-    scanf("%c", "%ch");
-
->>>>>>> Stashed changes
-    }
-    
+}
