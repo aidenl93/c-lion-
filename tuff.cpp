@@ -27,5 +27,5 @@ double pop()
 int function()
 {
     printf("enter");
-
+    
     }
