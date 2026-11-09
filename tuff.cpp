@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 #define MAX_SIZE 100
 int stack[MAX_SIZE];
@@ -28,16 +29,16 @@ int pop()
 }
 int main()
 {
-
+    printf("enter");
+    scanf(" %c", &optor);
     while (true)
     {
-        printf("enter");
-        scanf(" %c", &optor);
 
         if (optor >= '0' && optor <= '9')
         {
             int number = optor - '0';
             push(number);
+            scanf(" %c", &optor);
             continue;
         }
         if (optor == ' ' || optor == '\t')
