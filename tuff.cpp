@@ -22,7 +22,7 @@ int pop()
     {
        return stack[topeq--];
     }
-    {
+    {    
         printf("enter something");
         exit(1);
     }
