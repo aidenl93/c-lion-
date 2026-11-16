@@ -22,7 +22,25 @@ int main ()
 
     while (left < right)
     {
-        // check if each letter is = to each other
-    }
+            if (*left != *right)
+            {
+                palindrome = 0;
+                break;
+            }
+            left++;
+            right--;
+
+        }
+        if (palindrome == 1)
+        {
+            printf("palindrome");
+
+        }else
+        {
+            printf("not palindrome");
+        }
+
+
+    return 0;
 
 }
