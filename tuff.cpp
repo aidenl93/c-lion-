@@ -8,7 +8,7 @@ int main ()
     int palindrome = 1;
 
     printf("enter");
-    scanf("%s",message);
+    fgets(message, 100, stdin);
     left = message;
     right = message;
 
@@ -19,9 +19,23 @@ int main ()
 
 
     right-= 1;
+    if (*right == '\n')
+    {
+        right--;
+    }
 
     while (left < right)
     {
+        while (left < right && *left == ' ')
+        {
+            left++;
+        }
+
+        while (left < right && *right == ' ')
+        {
+            right--;
+        }
+
             if (*left != *right)
             {
                 palindrome = 0;
