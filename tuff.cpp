@@ -13,6 +13,11 @@ int main() {
         *pos = ch;
         pos++;
     }
-    printf("reversal issss lemme get back to u");
+    printf("reversal is: ");
+    for (pos--; pos >= msg; pos--)
+    {
+        putchar(*pos);
+    }
+    return 0;
 }
 
